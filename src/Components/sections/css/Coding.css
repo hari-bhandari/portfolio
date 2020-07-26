@@ -1,0 +1,29 @@
+:root{
+    --char:49;
+    --char-ch:49ch;
+    --speed:5s
+}
+.animate{
+    animation: type var(--speed) steps(var(--char));
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    width: 27ch;
+}
+p{
+    font-family: Consolas;
+}
+i:hover{
+    cursor: pointer;
+}
+@keyframes type {
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width:var(--char-ch);
+    }
+
+}
