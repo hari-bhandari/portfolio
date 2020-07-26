@@ -31,7 +31,7 @@ const Skills = () => {
             percentage: '98%'
         },
         {
-            title: 'Java',
+            title: 'Java ',
             percentage: '58%'
         }
 
