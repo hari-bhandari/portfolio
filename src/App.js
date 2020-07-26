@@ -1,9 +1,10 @@
 import React, {Fragment, Suspense, lazy, useState, useEffect} from 'react';
 
 import './bootstrap.css'
+import Navbar from "./Components/layout/Navbar";
+
 const Footer = lazy(() => import('./Components/layout/Footer'))
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
-const Navbar = lazy(() => import('./Components/layout/Navbar'))
 const WelcomePage = lazy(() => import('./Components/sections/Welcome /WecomePage'))
 const AboutMe = lazy(() => import('./Components/sections/About Me/AboutMe'))
 const Projects = lazy(() => import('./Components/sections/Projects/Projects'))
@@ -21,10 +22,11 @@ function App() {
 
     return (
         <Fragment>
+
+            <Navbar/>
             <Suspense fallback={<div>loading...</div>}>
                 {!loaded ? (<div>Loading...</div>) : (
                     <div>
-                         <Navbar/>
                         <WelcomePage/>
                         <AboutMe/>
                         <Skills/>
