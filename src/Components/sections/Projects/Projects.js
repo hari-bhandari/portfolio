@@ -17,11 +17,11 @@ const Projects = () => {
             demo:'https://www.haribhandari.uk/'
 
         },
-        {   title:'CONTACT KEEPER',
-            description:'Contact Keeper for Everyone...Contact keeper allows anyone to keeps all their contacts on one Place.I made this using React,MongoDb and Node.js(with authentication)',
+        {   title:'Store My Contacts',
+            description:'SMC for Everyone...SMC allows anyone to keeps all their contacts on one Place.I made this using React,MongoDb and Node.js(with authentication)',
             picture:ContactKeeper,
             mode:'mobile',
-            demo:''
+            demo:'https://storemycontacts.herokuapp.com/'
 
         },
         {   title:'EXPENSE TRACKER',
