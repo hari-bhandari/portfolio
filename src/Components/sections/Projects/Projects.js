@@ -7,6 +7,7 @@ import Sort from './img/sort.webp'
 import ContactKeeper from './img/Contact-Keeper.webp'
 import GithubFinder from './img/github-finder.webp'
 import DevCamper from './img/DevCamperApi.webp'
+import aStar from './img/aStar.png'
 const Projects = () => {
 
     const projects=[
@@ -57,7 +58,12 @@ const Projects = () => {
             demo:'https://error-logge.herokuapp.com/'
 
         },
+        {   title:'A* Pathfinding Visualiser using Python',
+            description:'This is a Path finding Visualiser app which was made using python and pygame.This app visualises A star path finding algorithm. You can choose your own start node,end node and you can add barriers to your graph.I could not host my app online but you can certainly check my code on Github.' ,
+            picture:aStar,
+            demo:'https://github.com/hari-bhandari/Astar-visualiser'
 
+        },
 
         ]
     return (
