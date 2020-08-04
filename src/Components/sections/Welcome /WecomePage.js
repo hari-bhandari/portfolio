@@ -1,5 +1,5 @@
-import React from 'react';
-import Coding from "./Coding";
+import React, {lazy,Suspense} from 'react';
+const Coding = lazy(() => import( "./Coding"));
 
 const WecomePage = () => {
     return (
@@ -21,7 +21,9 @@ const WecomePage = () => {
                             </a>
                         </div>
                         <div className="col-lg-4 d-none d-lg-block">
+                            <Suspense fallback={<div>Loading</div>}>
                             <Coding/>
+                            </Suspense>
                         </div>
                     </div>
                 </div>
