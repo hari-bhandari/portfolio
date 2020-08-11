@@ -43,7 +43,7 @@ const Skills = () => {
 
                 </div>
                 <div className="col-lg-8">
-                    <div id='skills' className={"card card-body py-5 border-0 background"} style={{width: '80%%', margin: 'auto', outline: 'none'}}>
+                    <div id='skills' className={"card card-body py-5 border-0 background"} style={{width: '70%%', margin: 'auto', outline: 'none'}}>
                         <h3 className="text-bolder">My Skills</h3>
                         <p className="text-lighter">Note: These percentages are just my opinion!</p>
                         {skills.map((skill,index)=>(
@@ -67,7 +67,7 @@ export default Skills;
 
 const Skill = ({title,percentage}) => {
     return (
-        <div>
+        <div className="skills">
             <h4 className="text-lighter">{title}</h4>
             <div className="progress mb-3">
                 <div className="progress-bar" style={{width: percentage,backgroundColor:'#17a2b8'}}></div>
