@@ -1,4 +1,4 @@
-import React, {Fragment, useState, useEffect} from 'react';
+import React, {Fragment, useState} from 'react';
 
 const ContactMe = () => {
     const [name, setName] = useState('')
@@ -7,12 +7,6 @@ const ContactMe = () => {
     const [message, setMessage] = useState('')
     const [response, setResponse] = useState('')
 
-
-    useEffect(() => {
-
-        // eslint-disable-next-line
-
-    }, [])
     const sendEmail = async () => {
         const myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
