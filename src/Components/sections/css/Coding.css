@@ -13,14 +13,14 @@
     width: var(--char-ch);
 }
 p{
-    font-family: Consolas;
+    font-family: Consolas, serif;
 }
 i:hover{
     cursor: pointer;
 }
 @keyframes type {
     0%{
-        width: 0ch;
+        width: 0;
     }
     100%{
         width:var(--char-ch);

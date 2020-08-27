@@ -10,9 +10,9 @@ const Project = ({title,description,picture,mode,demo}) => {
                         <div className="col-md-12 col-lg-3 offset-lg-2">
                             <div className="portfolio-phone-mockup">
                                 <a href={demo}>
-                                <div className="phone-screen" style={{backgroundImage:`url(${picture})`}}></div>
+                                <div className="phone-screen" style={{backgroundImage:`url(${picture})`}}/>
                                 </a>
-                                <div className="home-button"></div>
+                                <div className="home-button"/>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-5 text-bolder">
@@ -36,10 +36,10 @@ const Project = ({title,description,picture,mode,demo}) => {
                         <div className="portfolio-laptop-mockup">
                             <div className="screen">
                                 <a href={demo}>
-                                <div className="screen-content" style={{backgroundImage:`url(${picture})`}}></div>
+                                <div className="screen-content" style={{backgroundImage:`url(${picture})`}}/>
                                 </a>
                             </div>
-                            <div className="keyboard"></div>
+                            <div className="keyboard"/>
                         </div>
                     </div>
                 </div>

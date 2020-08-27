@@ -70,8 +70,7 @@ const Skill = ({title,percentage}) => {
         <div className="skills">
             <h4 className="text-lighter">{title}</h4>
             <div className="progress mb-3">
-                <div className="progress-bar" style={{width: percentage,backgroundColor:'#17a2b8'}}></div>
-
+                <div className="progress-bar" style={{width: percentage,backgroundColor:'#17a2b8'}}/>
             </div>
         </div>
     );

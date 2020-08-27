@@ -25,7 +25,7 @@ const AboutMe = () => {
                     <div className={"d-flex flex-row flex-wrap justify-content-between py-4 "}>
                         <div className="d-flex flex-column ">
                             <p className="text-bolder"><b className="about-me-font-size">Birthday: </b><span className="text-lighter about-me-font-size">10 February 2001</span></p>
-                            <p className="text-bolder"><b className="about-me-font-size">Website: </b><span className="text-lighter about-me-font-size"><a href="www.haribhandari.me">www.haribhandari.me</a></span></p>
+                            <p className="text-bolder"><b className="about-me-font-size">Website: </b><span className="text-lighter about-me-font-size"><a href="https://www.haribhandari.me">www.haribhandari.me</a></span></p>
                         </div>
                         <div className="d-flex flex-column">
                             <p className="text-bolder"><b className="about-me-font-size">Mail: </b><span className="text-lighter about-me-font-size">2012bhandari.ha@gmail.com</span></p>

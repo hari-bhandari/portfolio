@@ -5,7 +5,7 @@ import Footer from "./Components/layout/Footer";
 
 const Navbar = lazy(() => import( "./Components/layout/Navbar"));
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
-const WelcomePage = lazy(() => import('./Components/sections/Welcome /WecomePage'))
+const WelcomePage = lazy(() => import('./Components/sections/Welcome /WelcomePage'))
 const AboutMe = lazy(() => import('./Components/sections/About Me/AboutMe'))
 const Projects = lazy(() => import('./Components/sections/Projects/Projects'))
 const Skills = lazy(() => import('./Components/sections/About Me/Skills'))

@@ -37,15 +37,14 @@ const Coding = () => {
                     <div className="d-flex flex-row">
                         <i className={language === 'python' ? "fab fa-python fa-3x ml-5 text-danger" : "fab fa-python fa-3x ml-5 text-warning"} onClick={() => {
                             onClick('python', codeObject['python'], 49, '5s')
-
-                        }}></i>
+                        }}/>
                         <i className={language === 'js' ? "fab fa-js fa-3x ml-5 text-danger" : "fab fa-js fa-3x ml-5 text-warning"} onClick={() => {
                             onClick('js', codeObject['js'], 42, '4s')
-                        }}></i>
+                        }}/>
                         <i className={language === 'java' ? "fab fa-java fa-3x ml-5 text-danger" : "fab fa-java fa-3x ml-5 text-warning"} onClick={() => {
                             onClick('java', codeObject['java'], 72, '8s')
                         }
-                        }></i>
+                        }/>
                     </div>
                 </div>
             </div>

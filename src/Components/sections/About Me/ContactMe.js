@@ -27,7 +27,7 @@ const ContactMe = () => {
         };
 
         try {
-            const response = await fetch("https://formspree.io/mgenrlnr", requestOptions)
+            await fetch("https://formspree.io/mgenrlnr", requestOptions)
             setResponse("Your email has been received, I will get back to you as soon as possible")
         } catch (e) {
             setResponse('Something went wrong, Please try again')

@@ -8,6 +8,7 @@ import ContactKeeper from './img/Contact-Keeper.webp'
 import GithubFinder from './img/github-finder.webp'
 import DevCamper from './img/DevCamperApi.webp'
 import aStar from './img/aStar.png'
+import corona from './img/coronaVirus.webp'
 const Projects = () => {
 
     const projects=[
@@ -19,7 +20,7 @@ const Projects = () => {
         },
 
         {   title:'EXPENSE TRACKER',
-            description:'This tracks your spending\'s and total income though out the month and calculates total available money to spend. It\'s really healpful for those people who are bad with money.This app was made using plain vanilla js,css and HTML',
+            description:'This tracks your spending\'s and total income though out the month and calculates total available money to spend. It\'s really helpful for those people who are bad with money.This app was made using plain vanilla js,css and HTML',
             picture:Budget,
             demo:'http://haribhandari.co.uk/'
 
@@ -69,7 +70,7 @@ const Projects = () => {
         },
         {   title:'Corona Virus Tracker',
             description:'This app uses www.disease.sh api to track total number of cases of corona virus. It also visualizes number of cases,deaths and recovered totals across the world.In addition, I have listed countries by total number of corona virus cases.',
-            picture:Mcdonalds,
+            picture:corona,
             demo:'https://corona.haribhandari.me/'
         },
 
