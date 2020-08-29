@@ -60,6 +60,12 @@ const Projects = () => {
             demo:'https://github.com/hari-bhandari/Astar-visualiser'
 
         },
+
+        {   title:'Corona Virus Tracker',
+            description:'This app uses www.disease.sh api to track total number of cases of corona virus. It also visualizes number of cases,deaths and recovered totals across the world.In addition, I have listed countries by total number of corona virus cases.',
+            picture:corona,
+            demo:'https://corona.haribhandari.me/'
+        },
         {   title:'MCDONALD\'S SCHEDULE VIEWER',
             description:'This is an amazing web scraping app that scrapes mcdonald\'s schedule. I made this app as Mcdonald\'s schedule is extremely unresponsive and hard to work with.NodeJs and Reactjs were used while making this project. This app scrapes mcdonald\'s schedule every 24 hours at 0:00 am.\n' +
                 'By the way, I work at Mcdonald\'s.',
@@ -68,13 +74,22 @@ const Projects = () => {
             demo:'https://mcdonalds-schedule.herokuapp.com/'
 
         },
-        {   title:'Corona Virus Tracker',
-            description:'This app uses www.disease.sh api to track total number of cases of corona virus. It also visualizes number of cases,deaths and recovered totals across the world.In addition, I have listed countries by total number of corona virus cases.',
+        {
+            title:'IP-API',
+            description:'This is an open-source project which helps developers to get client\'s ip,country,city timezone and location. I was enforced to make this free and opensource as i wanted to use 3rd party api and saw their subscription fee. This is absolutely free and open source ',
             picture:corona,
-            demo:'https://corona.haribhandari.me/'
+            demo:'https://ip-api.me'
         },
+        {   title:'Car information finder for UK',
+            description:'I used DVLA vehicle enquiry service api to provide detailed information about peoples car.This is an excellent app to check UK\'s vehicle information for free.',
+            picture:Sort,
+            mode:'mobile',
+            demo:'https://car.haribhandari.me/'
 
-        ]
+        }
+
+
+    ]
     return (
         <div id={"projects"} className="background">
             {projects.map((value,index) =>(
