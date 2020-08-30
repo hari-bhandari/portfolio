@@ -12,31 +12,31 @@ const Skills = lazy(() => import('./Components/sections/About Me/Skills'))
 
 
 function App() {
-    const [loaded, setLoaded] = useState(false)
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setLoaded(true)
-        }, 0);
-        return () => clearTimeout(timer);
-    }, []);
+
 
     return (
         <Fragment>
             <Suspense fallback={<div>loading...</div>}>
-                {!loaded ? (<div>Loading...</div>) : (
                     <div>
                         <Navbar/>
-                        <WelcomePage/>
-                        <AboutMe/>
-                        <Skills/>
-                        <Projects/>
-                        <ContactMe/>
+
                     </div>
-                )}
-
-
+            </Suspense>
+            <Suspense fallback={<div>loading...</div>}>
+                <WelcomePage/>
 
             </Suspense>
+            <Suspense fallback={<div>loading...</div>}>
+                <AboutMe/>
+            </Suspense>
+            <Suspense fallback={<div>loading...</div>}>
+                <Skills/>
+            </Suspense>
+
+            <Suspense fallback={<div>loading...</div>}>
+                <Projects/>
+            </Suspense>
+
             <Footer/>
 
 

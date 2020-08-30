@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/sections/Projects/img/car-info.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Contact-Keeper.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/sections/Projects/img/ip-api.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/sections/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/Projects/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/sections/Projects/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -35,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Components/sections/Projects/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Components/sections" />
@@ -93,6 +98,10 @@
       <workItem from="1598516945037" duration="3665000" />
       <workItem from="1598690747100" duration="276000" />
       <workItem from="1598691027230" duration="1790000" />
+      <workItem from="1598733416979" duration="589000" />
+      <workItem from="1598774574462" duration="666000" />
+      <workItem from="1598788597544" duration="4167000" />
+      <workItem from="1598802057847" duration="545000" />
     </task>
     <servers />
   </component>

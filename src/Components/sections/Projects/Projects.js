@@ -9,6 +9,8 @@ import GithubFinder from './img/github-finder.webp'
 import DevCamper from './img/DevCamperApi.webp'
 import aStar from './img/aStar.png'
 import corona from './img/coronaVirus.webp'
+import ipAPI from './img/ip-api.webp'
+import carInfo from './img/car-info.webp'
 const Projects = () => {
 
     const projects=[
@@ -77,12 +79,12 @@ const Projects = () => {
         {
             title:'IP-API',
             description:'This is an open-source project which helps developers to get client\'s ip,country,city timezone and location. I was enforced to make this free and opensource as i wanted to use 3rd party api and saw their subscription fee. This is absolutely free and open source ',
-            picture:corona,
+            picture:ipAPI,
             demo:'https://ip-api.me'
         },
         {   title:'Car information finder for UK',
             description:'I used DVLA vehicle enquiry service api to provide detailed information about peoples car.This is an excellent app to check UK\'s vehicle information for free.',
-            picture:Sort,
+            picture:carInfo,
             mode:'mobile',
             demo:'https://car.haribhandari.me/'
 
