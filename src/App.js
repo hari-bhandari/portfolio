@@ -36,6 +36,9 @@ function App() {
             <Suspense fallback={<div>loading...</div>}>
                 <Projects/>
             </Suspense>
+            <Suspense fallback={<div>loading...</div>}>
+                <ContactMe/>
+            </Suspense>
 
             <Footer/>
 

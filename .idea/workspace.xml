@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Contact-Keeper.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/sections/Projects/img/ip-api.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/projects.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/Projects/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,7 @@
       <workItem from="1598733416979" duration="589000" />
       <workItem from="1598774574462" duration="666000" />
       <workItem from="1598788597544" duration="4167000" />
-      <workItem from="1598802057847" duration="545000" />
+      <workItem from="1598802057847" duration="2431000" />
     </task>
     <servers />
   </component>
