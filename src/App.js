@@ -1,4 +1,4 @@
-import React, {Fragment, Suspense, lazy, useState, useEffect} from 'react';
+import React, {Fragment, lazy, Suspense} from 'react';
 
 import './bootstrap.css'
 import Footer from "./Components/layout/Footer";
@@ -16,12 +16,9 @@ function App() {
 
     return (
         <Fragment>
-            <Suspense fallback={<div>loading...</div>}>
-                    <div>
-                        <Navbar/>
 
-                    </div>
-            </Suspense>
+            <Navbar/>
+
             <Suspense fallback={<div>loading...</div>}>
                 <WelcomePage/>
 
