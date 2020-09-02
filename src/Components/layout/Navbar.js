@@ -42,7 +42,7 @@ const Navbar = () => {
 
     }
     return (
-            <nav className={"navbar navbar-expand-md  fixed-top py-4 navbar-light text-lighter"} id="main-nav">
+            <nav className="navbar navbar-expand-md  fixed-top py-4 navbar-light text-lighter" id="main-nav">
                 <div className="container">
                     <Link to="home" className="navbar-brand my-0" smooth={true} duration={500}>
                         <img src={logo} width="110" height="80" alt="logo"/>
