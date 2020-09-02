@@ -1,5 +1,8 @@
 import React, {Fragment, useState} from 'react';
 import '../css/Coding.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPython,faJava,faJs } from '@fortawesome/free-brands-svg-icons'
+import Typer from 'react-typetool'
 const Coding = () => {
     const codeObject = {
         python: ['class Person:', 'def __init__(self,name,dateOfBirth=2001):', 'self.name="Hari Bhandari"', 'self.age=datetime.datetime.now().year-dateOfBirth'],
@@ -19,7 +22,7 @@ const Coding = () => {
 
     return (
         <Fragment>
-            <div className="card text-white bg-dark mb-3" style={{width: '35rem', marginTop: '5em', backgroundColor: '#353839'}}>
+            <div className="card text-white bg-dark mb-3" style={{width: '38rem', marginTop: '5em', backgroundColor: '#353839'}}>
                 <div className="card-body">
 
                     <p className={"text-white"}>{text[0]}</p>
@@ -35,16 +38,15 @@ const Coding = () => {
                 </div>
                 <div className="d-flex flex-row flex-wrap justify-content-between py-1 ">
                     <div className="d-flex flex-row">
-                        <i className={language === 'python' ? "fab fa-python fa-3x ml-5 text-danger" : "fab fa-python fa-3x ml-5 text-warning"} onClick={() => {
+                        <FontAwesomeIcon icon={faPython} size="3x" style={{marginLeft:"10rem"}} color={language==='python'?'#dc3545':'#ffc107'} className="icon" onClick={() => {
                             onClick('python', codeObject['python'], 49, '5s')
                         }}/>
-                        <i className={language === 'js' ? "fab fa-js fa-3x ml-5 text-danger" : "fab fa-js fa-3x ml-5 text-warning"} onClick={() => {
+                        <FontAwesomeIcon icon={faJs} size="3x" style={{marginLeft:"3rem"}} color={language==='js'?'#dc3545':'#ffc107'} className="icon" onClick={() => {
                             onClick('js', codeObject['js'], 42, '4s')
                         }}/>
-                        <i className={language === 'java' ? "fab fa-java fa-3x ml-5 text-danger" : "fab fa-java fa-3x ml-5 text-warning"} onClick={() => {
+                        <FontAwesomeIcon icon={faJava} size="3x" style={{marginLeft:"3rem"}} color={language==='java'?'#dc3545':'#ffc107'} className="icon" onClick={() => {
                             onClick('java', codeObject['java'], 72, '8s')
-                        }
-                        }/>
+                        }}/>
                     </div>
                 </div>
             </div>
