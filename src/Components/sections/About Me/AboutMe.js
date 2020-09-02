@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/Aboutme.css'
-import Particles from 'react-particles-js';
 
 const AboutMe = () => {
     return (
