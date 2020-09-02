@@ -35,25 +35,7 @@ function App() {
     const [ref,visible]=useOnScreen({rootMargin:'0px','threshold':'0.75'})
     return (
         <Fragment>
-            <Particles width="100%" height={"100vh"}
-                params={{
-                    "particles": {
-                        "number": {
-                            "value": 500
-                        },
-                        "size": {
-                            "value": 3
-                        }
-                    },
-                    "interactivity": {
-                        "events": {
-                            "onhover": {
-                                "enable": true,
-                                "mode": "repulse"
-                            }
-                        }
-                    }
-                }} />
+
                 <Navbar/>
                 <WelcomePage/>
                 <AboutMe/>
@@ -62,12 +44,12 @@ function App() {
 
 
             <Suspense fallback={<div></div>}>
-                <Skills/>
+                {visible&&<Skills/>}
             </Suspense>
             {visible&&(<Projects/>)}
 
             <Suspense fallback={<div></div>}>
-                <ContactMe/>
+                {visible&&<ContactMe/>}
             </Suspense>
 
             <Footer/>
