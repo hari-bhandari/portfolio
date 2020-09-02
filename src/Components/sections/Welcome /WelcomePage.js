@@ -22,7 +22,7 @@ const WelcomePage = () => {
                         </div>
                         <div className="col-lg-4 d-none d-lg-block">
                             <Suspense fallback={<div>Loading</div>}>
-                            <Coding/>
+                                {window.innerWidth>=960&&<Coding/>}
                             </Suspense>
                         </div>
                     </div>

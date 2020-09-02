@@ -33,8 +33,8 @@ const useOnScreen=(options)=>{
 function App() {
     const [ref,visible]=useOnScreen({rootMargin:'0px','threshold':'0.75'})
     useEffect(()=>{
-        console.log(visible)
-    },[visible])
+        console.log(window.innerWidth)
+    },[window.innerWidth])
     return (
         <Fragment>
                 <Navbar/>
