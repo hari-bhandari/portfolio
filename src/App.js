@@ -6,6 +6,7 @@ import Navbar from "./Components/layout/Navbar";
 import WelcomePage from "./Components/sections/Welcome /WelcomePage";
 import AboutMe from "./Components/sections/About Me/AboutMe";
 import Projects from "./Components/sections/Projects/Projects";
+import Particles from "react-particles-js";
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
 const Skills = lazy(() => import('./Components/sections/About Me/Skills'))
 const useOnScreen=(options)=>{
@@ -32,11 +33,27 @@ const useOnScreen=(options)=>{
 
 function App() {
     const [ref,visible]=useOnScreen({rootMargin:'0px','threshold':'0.75'})
-    useEffect(()=>{
-        console.log(window.innerWidth)
-    },[window.innerWidth])
     return (
         <Fragment>
+            <Particles width="100%" height={"100vh"}
+                params={{
+                    "particles": {
+                        "number": {
+                            "value": 500
+                        },
+                        "size": {
+                            "value": 3
+                        }
+                    },
+                    "interactivity": {
+                        "events": {
+                            "onhover": {
+                                "enable": true,
+                                "mode": "repulse"
+                            }
+                        }
+                    }
+                }} />
                 <Navbar/>
                 <WelcomePage/>
                 <AboutMe/>

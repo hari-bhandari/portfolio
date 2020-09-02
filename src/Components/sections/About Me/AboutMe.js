@@ -1,9 +1,12 @@
 import React from 'react';
 import '../css/Aboutme.css'
+import Particles from 'react-particles-js';
 
 const AboutMe = () => {
     return (
+
         <section className="about px-4 text-center about--me background" id="about-me">
+
             <div className="me py-5">
                 <h1 className={"text-uppercase font-staat font-size-34 text-bolder"}>About Me</h1>
             </div>
