@@ -1,5 +1,4 @@
-import React, {Fragment, lazy, Suspense} from 'react';
-
+import React, {Fragment, lazy, Suspense, useCallback, useRef} from 'react';
 import './bootstrap.css'
 import Footer from "./Components/layout/Footer";
 import Navbar from "./Components/layout/Navbar";
@@ -11,8 +10,20 @@ const Skills = lazy(() => import('./Components/sections/About Me/Skills'))
 
 
 function App() {
+    
 
-
+    const observer=useRef()
+    const lastBookElementRef=useCallback(node=>{
+        console.log(node)
+        // if(observer.current) observer.current.disconnect()
+        // observer.current=new IntersectionObserver(entries => {
+        //     if(entries[0].isIntersecting){
+        //         console.log('visible')
+        //     }
+        //
+        // })
+        // if(node) observer.current
+    })
     return (
         <Fragment>
                 <Navbar/>
@@ -22,6 +33,7 @@ function App() {
             <Suspense fallback={<div></div>}>
                 <AboutMe/>
             </Suspense>
+            <div ref={observer}>dsf</div>
             <Suspense fallback={<div></div>}>
                 <Skills/>
             </Suspense>
