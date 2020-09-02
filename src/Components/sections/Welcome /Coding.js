@@ -11,12 +11,9 @@ const Coding = () => {
     }
     const [language, setLanguage] = useState('python')
     const [text, setText] = useState(codeObject['python'])
-    const onClick = (language, text, char, delay) => {
+    const onClick = (language, text) => {
         setLanguage(language)
         setText(text)
-        document.documentElement.style.setProperty('--char', char);
-        document.documentElement.style.setProperty('--char-ch', `${char}ch`);
-        document.documentElement.style.setProperty('--speed', delay);
     }
 
 
@@ -39,13 +36,13 @@ const Coding = () => {
                 <div className="d-flex flex-row flex-wrap justify-content-between py-1 ">
                     <div className="d-flex flex-row">
                         <FontAwesomeIcon icon={faPython} size="3x" style={{marginLeft:"10rem"}} color={language==='python'?'#dc3545':'#ffc107'} className="icon" onClick={() => {
-                            onClick('python', codeObject['python'], 49, '5s')
+                            onClick('python', codeObject['python'])
                         }}/>
                         <FontAwesomeIcon icon={faJs} size="3x" style={{marginLeft:"3rem"}} color={language==='js'?'#dc3545':'#ffc107'} className="icon" onClick={() => {
-                            onClick('js', codeObject['js'], 42, '4s')
+                            onClick('js', codeObject['js'])
                         }}/>
                         <FontAwesomeIcon icon={faJava} size="3x" style={{marginLeft:"3rem"}} color={language==='java'?'#dc3545':'#ffc107'} className="icon" onClick={() => {
-                            onClick('java', codeObject['java'], 72, '8s')
+                            onClick('java', codeObject['java'])
                         }}/>
                     </div>
                 </div>
