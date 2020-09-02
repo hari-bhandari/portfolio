@@ -1,46 +1,54 @@
-import React, {Fragment, lazy, Suspense, useCallback, useRef} from 'react';
+import React, {Fragment, lazy, Suspense, useEffect, useRef,useState} from 'react';
+
 import './bootstrap.css'
 import Footer from "./Components/layout/Footer";
 import Navbar from "./Components/layout/Navbar";
+import WelcomePage from "./Components/sections/Welcome /WelcomePage";
+import AboutMe from "./Components/sections/About Me/AboutMe";
+import Projects from "./Components/sections/Projects/Projects";
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
-const WelcomePage = lazy(() => import('./Components/sections/Welcome /WelcomePage'))
-const AboutMe = lazy(() => import('./Components/sections/About Me/AboutMe'))
-const Projects = lazy(() => import('./Components/sections/Projects/Projects'))
 const Skills = lazy(() => import('./Components/sections/About Me/Skills'))
+const useOnScreen=(options)=>{
+    const[visible,setVisible]=useState(false)
+    const ref=useRef()
+    useEffect(()=>{
+        const observer=new IntersectionObserver(([entry])=>{
+            if(visible) {}
+            else{setVisible(entry.isIntersecting)}
 
+        },options)
+        if(ref.current){
+            observer.observe(ref.current)
+        }
+
+        return ()=>{
+            if(ref.current){
+                observer.unobserve(ref.current)
+            }
+        }
+    },[ref,options])
+    return [ref,visible]
+}
 
 function App() {
-    
-
-    const observer=useRef()
-    const lastBookElementRef=useCallback(node=>{
-        console.log(node)
-        // if(observer.current) observer.current.disconnect()
-        // observer.current=new IntersectionObserver(entries => {
-        //     if(entries[0].isIntersecting){
-        //         console.log('visible')
-        //     }
-        //
-        // })
-        // if(node) observer.current
-    })
+    const [ref,visible]=useOnScreen({rootMargin:'0px','threshold':'0.75'})
+    useEffect(()=>{
+        console.log(visible)
+    },[visible])
     return (
         <Fragment>
                 <Navbar/>
-            <Suspense fallback={<div>loading...</div>}>
                 <WelcomePage/>
-            </Suspense>
-            <Suspense fallback={<div></div>}>
                 <AboutMe/>
-            </Suspense>
-            <div ref={observer}>dsf</div>
+            <div ref={ref}></div>
+
+
+
             <Suspense fallback={<div></div>}>
                 <Skills/>
             </Suspense>
+            {visible&&(<Projects/>)}
 
-            <Suspense fallback={<div></div>}>
-                <Projects/>
-            </Suspense>
             <Suspense fallback={<div></div>}>
                 <ContactMe/>
             </Suspense>
