@@ -2,7 +2,7 @@ import React, {Fragment, useState} from 'react';
 import '../css/Coding.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython,faJava,faJs } from '@fortawesome/free-brands-svg-icons'
-import Typer from 'react-typetool'
+import {Typer} from 'react-typetool'
 const Coding = () => {
     const codeObject = {
         python: ['class Person:', 'def __init__(self,name,dateOfBirth=2001):', 'self.name="Hari Bhandari"', 'self.age=datetime.datetime.now().year-dateOfBirth'],
@@ -28,11 +28,11 @@ const Coding = () => {
                     <p className={"text-white"}>{text[0]}</p>
                     <p className={"ml-2 text-white"}>{text[1]}</p>
                     <p className={language === 'java' ? "ml-2 text-white" : "ml-4 text-white"}>{text[2]}</p>
-                    <p className={language === 'java' ? "ml-2 text-white" : "ml-4 text-white animate"}>{text[3]}</p>
+                    {language==='java'?(<p className={"ml-2 text-white"}>{text[3]}</p>):(<p className="ml-4 text-white"><Typer text={text[3]} loop={true} stepIntervalMS={100}/></p>)}
                     {language === 'java' ? (
                         <div>
                             <p className={"ml-4 text-white"}>{text[4]}</p>
-                            <p className={"ml-4 text-white animate"}>{text[5]}</p>
+                            <p className="ml-4 text-white"><Typer text={text[5]} stepIntervalMS={100} loop={true}/></p>
                         </div>
                     ) : ''}
                 </div>
