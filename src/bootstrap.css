@@ -1099,9 +1099,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 .pl-0 {
     padding-left: 0 !important
 }
-#home{
-    height:calc(100vh - 140px);
-}
+
 .py-1 {
     padding-top: .25rem !important
 }
