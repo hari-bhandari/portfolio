@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/layout/Parallax-TEXT.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/sections/Welcome /WelcomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/Welcome /WelcomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/css/Aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/css/Aboutme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstrap.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
@@ -35,24 +35,24 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/sections" />
+      <recent name="$PROJECT_DIR$/src/Components/sections/About Me" />
+      <recent name="$PROJECT_DIR$/src/Components/layout" />
+      <recent name="$PROJECT_DIR$/src/Components/sections/Welcome " />
+      <recent name="$PROJECT_DIR$/src/Components/sections/Projects/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Components/sections/Projects/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Components/sections" />
       <recent name="$PROJECT_DIR$/src/Components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Components/sections/About Me" />
-      <recent name="$PROJECT_DIR$/src/Components/layout" />
-      <recent name="$PROJECT_DIR$/src/Components/sections/Welcome " />
-      <recent name="$PROJECT_DIR$/src/Components/sections/Projects/img" />
-      <recent name="$PROJECT_DIR$/src/Components/sections" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -111,6 +111,8 @@
       <workItem from="1599031126054" duration="15360000" />
       <workItem from="1599068093157" duration="2054000" />
       <workItem from="1599158266126" duration="1672000" />
+      <workItem from="1599242049346" duration="1301000" />
+      <workItem from="1599245938858" duration="3363000" />
     </task>
     <servers />
   </component>
@@ -131,6 +133,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="91" width="1536" height="901" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599022632084" />
+    <state x="2547" y="334" width="719" height="452" key="EditFileWatcherDialog" timestamp="1599248178409">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2547" y="334" width="719" height="452" key="EditFileWatcherDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599248178409" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595941453413">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -160,14 +166,19 @@
     </state>
     <state x="134" y="237" width="459" height="602" key="RollbackChangesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599022635785" />
     <state x="201" y="237" width="656" height="640" key="RollbackChangesDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1597142083261" />
+    <state x="2401" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1599248182239">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2401" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599248182239" />
     <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599039245556">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599039245556" />
     <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595704311555" />
-    <state x="143" y="27" width="1217" height="664" maximized="true" key="dock-window-1" timestamp="1595757971122">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="2366" y="27" width="1474" height="679" key="dock-window-1" timestamp="1599246332262">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2366" y="27" width="1474" height="679" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599246332262" />
     <state x="143" y="27" width="1217" height="664" maximized="true" key="dock-window-1/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595757971122" />
     <state x="687" y="292" width="618" height="522" key="find.popup" timestamp="1595758274759">
       <screen x="72" y="27" width="1848" height="1053" />
