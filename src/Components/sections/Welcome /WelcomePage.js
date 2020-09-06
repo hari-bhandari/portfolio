@@ -1,4 +1,5 @@
 import React, {lazy,Suspense} from 'react';
+import Fade from "react-reveal";
 const Coding = lazy(() => import( "./Coding"));
 
 const WelcomePage = () => {
@@ -21,7 +22,7 @@ const WelcomePage = () => {
                     </div>
                     <div className="col-lg-4 d-none d-lg-block">
                         <Suspense fallback={<div>Loading</div>}>
-                            <Coding/>
+                            {window.innerWidth >= 960 && <Fade bottom><Coding/></Fade>}
                         </Suspense>
                     </div>
                 </div>
