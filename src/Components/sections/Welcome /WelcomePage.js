@@ -1,5 +1,7 @@
 import React, {lazy,Suspense} from 'react';
 import Fade from "react-reveal";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload ,faPhone} from '@fortawesome/free-solid-svg-icons'
 const Coding = lazy(() => import( "./Coding"));
 
 const WelcomePage = () => {
@@ -14,10 +16,10 @@ const WelcomePage = () => {
                         </h1>
                         <p className="welcome-page-font-size text-white ">Welcome to my Portfolio</p>
                         <a href="https://1drv.ms/w/s!AlhjcQhH4HlTgu96qRdZqE2NJP7Liw?e=3yIgVN " className="btn btn-outline-secondary btn-lg text-white">
-                            <i className="fas fa-download"/> Download my CV
+                            <FontAwesomeIcon icon={faDownload}/> Download my CV
                         </a>
                         <a className="btn btn-outline-secondary btn-lg text-white mx-2"  data-toggle="modal" data-target="#contactModal" href='#contactModal'>
-                            <i className="fa fa-phone"/> Contact me
+                            <FontAwesomeIcon icon={faPhone}/> Contact me
                         </a>
                     </div>
                     <div className="col-lg-4 d-none d-lg-block">
