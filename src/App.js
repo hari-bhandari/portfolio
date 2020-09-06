@@ -6,7 +6,6 @@ import Navbar from "./Components/layout/Navbar";
 import WelcomePage from "./Components/sections/Welcome /WelcomePage";
 import AboutMe from "./Components/sections/About Me/AboutMe";
 import Projects from "./Components/sections/Projects/Projects";
-import {ParallaxProvider} from 'react-scroll-parallax';
 
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
 const Skills = lazy(() => import('./Components/sections/About Me/Skills'))
@@ -37,7 +36,6 @@ const useOnScreen = (options) => {
 function App() {
     const [ref,visible]=useOnScreen({rootMargin:'0px','threshold':'0.75'})
     return (
-        <ParallaxProvider>
             <Fragment>
 
                 <Navbar/>
@@ -54,7 +52,6 @@ function App() {
                 </Suspense>
                 <Footer/>
             </Fragment>
-        </ParallaxProvider>
             );
 }
 

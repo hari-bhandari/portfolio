@@ -107,6 +107,7 @@
       <workItem from="1599158266126" duration="1672000" />
       <workItem from="1599242049346" duration="1301000" />
       <workItem from="1599245938858" duration="5134000" />
+      <workItem from="1599410531633" duration="1168000" />
     </task>
     <servers />
   </component>
@@ -165,19 +166,20 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2401" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599248182239" />
-    <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599039245556">
+    <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599410952836">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599039245556" />
+    <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599410952836" />
     <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595704311555" />
     <state x="2366" y="27" width="1474" height="679" key="dock-window-1" timestamp="1599246332262">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2366" y="27" width="1474" height="679" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599246332262" />
     <state x="143" y="27" width="1217" height="664" maximized="true" key="dock-window-1/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595757971122" />
-    <state x="687" y="292" width="618" height="522" key="find.popup" timestamp="1595758274759">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="639" y="292" width="643" height="522" key="find.popup" timestamp="1599410666651">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="639" y="292" width="643" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599410666651" />
     <state x="2559" y="272" width="643" height="536" key="find.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595682956670" />
     <state x="687" y="292" width="618" height="522" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595758274759" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1595753335832">
