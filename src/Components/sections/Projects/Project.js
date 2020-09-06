@@ -10,6 +10,7 @@ const Project = ({title,description,picture,mode,demo}) => {
                         <div className="col-md-12 col-lg-3 offset-lg-2">
                             <div className="portfolio-phone-mockup">
                                 <a href={demo}>
+
                                 <div className="phone-screen" style={{backgroundImage:`url(${picture})`}}/>
                                 </a>
                                 <div className="home-button"/>

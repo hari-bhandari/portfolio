@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/Aboutme.css'
-import Spin from 'react-reveal/Spin';
 
 const AboutMe = () => {
     return (
@@ -11,11 +10,9 @@ const AboutMe = () => {
                 <h1 className={"text-uppercase font-staat font-size-34 text-bolder"}>About Me</h1>
             </div>
             <div className="row m-0">
-                <Spin>
                     <div className="col-sm-5 pl-0">
                         <img src={'https://i.imgur.com/yIRXIZj.png'} className="img-fluid" alt={'my profile'}/>
                     </div>
-                </Spin>
                 <div className="col-sm-6">
                     <h4 className="font-ram py-2 text-lighter" style={{fontSize: '25px'}}> Hi,I'm Hari Bhandari, </h4>
                     <p className="font-ram  py-2 text-lighter about-me-font-size">
