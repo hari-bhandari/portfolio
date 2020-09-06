@@ -1,5 +1,5 @@
 import React from 'react';
-
+import LightSpeed from 'react-reveal/LightSpeed';
 const Project = ({title,description,picture,mode,demo}) => {
     if(mode==='mobile'){
         return(
@@ -8,13 +8,14 @@ const Project = ({title,description,picture,mode,demo}) => {
                 <div className="container align-items-center">
                     <div className="row align-items-center">
                         <div className="col-md-12 col-lg-3 offset-lg-2">
+                            <LightSpeed left>
                             <div className="portfolio-phone-mockup">
                                 <a href={demo}>
-
                                 <div className="phone-screen" style={{backgroundImage:`url(${picture})`}}/>
                                 </a>
                                 <div className="home-button"/>
                             </div>
+                            </LightSpeed>
                         </div>
                         <div className="col-md-12 col-lg-5 text-bolder">
                             <h3 >{title}</h3>
@@ -34,6 +35,8 @@ const Project = ({title,description,picture,mode,demo}) => {
                         <p className="project-font-size">{description}</p>
                     </div>
                     <div className="col-md-12 col-lg-5">
+                        <LightSpeed right>
+
                         <div className="portfolio-laptop-mockup">
                             <div className="screen">
                                 <a href={demo}>
@@ -42,6 +45,7 @@ const Project = ({title,description,picture,mode,demo}) => {
                             </div>
                             <div className="keyboard"/>
                         </div>
+                        </LightSpeed>
                     </div>
                 </div>
             </div>
