@@ -11,7 +11,7 @@ const AboutMe = () => {
             </div>
             <div className="row m-0">
                     <div className="col-sm-5 pl-0">
-                        <img src={profile} className="img-fluid" alt={'my profile'}/>
+                        {/*<img src={profile} className="img-fluid" alt={'my profile'}/>*/}
                     </div>
                 <div className="col-sm-6">
                     <h4 className="font-ram py-2 text-lighter" style={{fontSize: '25px'}}> Hi,I'm Hari Bhandari, </h4>
