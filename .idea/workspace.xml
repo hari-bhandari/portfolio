@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/layout/Parallax-TEXT.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/Welcome /WelcomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/Welcome /WelcomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstrap.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +24,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hari-bhandari" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -112,7 +106,7 @@
       <workItem from="1599068093157" duration="2054000" />
       <workItem from="1599158266126" duration="1672000" />
       <workItem from="1599242049346" duration="1301000" />
-      <workItem from="1599245938858" duration="3363000" />
+      <workItem from="1599245938858" duration="5134000" />
     </task>
     <servers />
   </component>
@@ -137,9 +131,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2547" y="334" width="719" height="452" key="EditFileWatcherDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599248178409" />
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595941453413">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="735" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599251773910">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="735" y="311" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599251773910" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595941453413" />
     <state width="1763" height="283" key="GridCell.Tab.0.bottom" timestamp="1595764452840">
       <screen x="72" y="27" width="1848" height="1053" />
