@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,30 +138,34 @@
     </state>
     <state x="735" y="311" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599251773910" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595941453413" />
-    <state width="1763" height="283" key="GridCell.Tab.0.bottom" timestamp="1595764452840">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1874" height="420" key="GridCell.Tab.0.bottom" timestamp="1599509704149">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="1874" height="420" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599509704149" />
     <state width="1782" height="284" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595436067553" />
     <state width="1763" height="283" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595764452840" />
-    <state width="1763" height="283" key="GridCell.Tab.0.center" timestamp="1595764452840">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1874" height="420" key="GridCell.Tab.0.center" timestamp="1599509704149">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="1874" height="420" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599509704149" />
     <state width="1782" height="284" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595436067553" />
     <state width="1763" height="283" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595764452840" />
-    <state width="1763" height="283" key="GridCell.Tab.0.left" timestamp="1595764452840">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1874" height="420" key="GridCell.Tab.0.left" timestamp="1599509704149">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="1874" height="420" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599509704149" />
     <state width="1782" height="284" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595436067553" />
     <state width="1763" height="283" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595764452840" />
-    <state width="1763" height="283" key="GridCell.Tab.0.right" timestamp="1595764452840">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1874" height="420" key="GridCell.Tab.0.right" timestamp="1599509704149">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state width="1874" height="420" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599509704149" />
     <state width="1782" height="284" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595436067553" />
     <state width="1763" height="283" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595764452840" />
-    <state x="2054" y="215" width="481" height="640" key="RollbackChangesDialog" timestamp="1599506704991">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="134" y="237" width="481" height="640" key="RollbackChangesDialog" timestamp="1599508916950">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="134" y="237" width="459" height="602" key="RollbackChangesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599022635785" />
+    <state x="134" y="237" width="459" height="602" key="RollbackChangesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599508916950" />
     <state x="2054" y="215" width="481" height="640" key="RollbackChangesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599506704991" />
     <state x="201" y="237" width="656" height="640" key="RollbackChangesDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1597142083261" />
     <state x="2401" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1599248182239">
@@ -191,9 +196,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599027920475" />
-    <state x="721" y="412" width="540" height="289" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1595522848454">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="674" y="412" width="540" height="289" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599509134855">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="674" y="412" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599509134855" />
     <state x="721" y="412" width="540" height="289" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595522848454" />
   </component>
 </project>
