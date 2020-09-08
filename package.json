@@ -38,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "compression-webpack-plugin": "^5.0.2"
+    "brotli-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^5.0.2",
+    "webpack-bundle-analyzer": "^3.8.0"
   }
 }
