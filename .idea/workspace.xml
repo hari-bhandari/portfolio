@@ -4,7 +4,6 @@
     <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,10 +174,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2401" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599248182239" />
-    <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599414427332">
+    <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599577288696">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599414427332" />
+    <state x="102" y="130" width="1713" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599577288696" />
     <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595704311555" />
     <state x="2366" y="27" width="1474" height="679" key="dock-window-1" timestamp="1599246332262">
       <screen x="1920" y="0" width="1920" height="1080" />
