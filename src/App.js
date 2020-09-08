@@ -41,8 +41,7 @@ function App() {
                 <Navbar/>
 
                 <WelcomePage/>
-                <AboutMe/>
-                <div ref={ref}></div>
+                <AboutMe ref={ref}/>
                 <Suspense fallback={<div></div>}>
                 {visible&&<Skills/>}
                 </Suspense>
