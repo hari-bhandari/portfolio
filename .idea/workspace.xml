@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/layout/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/layout/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/Projects/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/Projects/Project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/Welcome /WelcomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/Welcome /WelcomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
