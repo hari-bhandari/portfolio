@@ -10,7 +10,7 @@ const Project = ({title,description,picture,mode,demo}) => {
                         <div className="col-md-12 col-lg-3 offset-lg-2">
                             <LightSpeed left>
                             <div className="portfolio-phone-mockup">
-                                <a href={demo}>
+                                <a aria-label="demo" href={demo}>
                                 <div className="phone-screen" style={{backgroundImage:`url(${picture})`}}/>
                                 </a>
                                 <div className="home-button"/>
@@ -39,7 +39,7 @@ const Project = ({title,description,picture,mode,demo}) => {
 
                         <div className="portfolio-laptop-mockup">
                             <div className="screen">
-                                <a href={demo}>
+                                <a aria-label="demo" href={demo}>
                                 <div className="screen-content" style={{backgroundImage:`url(${picture})`}}/>
                                 </a>
                             </div>

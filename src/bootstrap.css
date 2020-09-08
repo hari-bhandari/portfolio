@@ -1,19 +1,11 @@
-:root{
-    --navbar-background: #333333;
-    --background: #333333;
-    --text-colour: #dccece;
-    --text-intensed: #f3f1f1;
-    --overlay-color: rgba(51, 51, 51, 0.95);
-    --footer-background: #333333
 
-}
 :root{
     --navbar-background: rgb(255, 255, 255);
     --background: rgb(255, 255, 255);
     --text-colour: #312f2f;
     --text-intensed: #000000;
     --overlay-color:rgba(50, 146, 166, 0.53);
-    --footer-background:#17a2b8
+    --footer-background: #bdfced
 
 }
 

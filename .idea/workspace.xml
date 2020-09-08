@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="" />
+    <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/layout/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sections/Projects/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/Projects/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sections/Welcome /WelcomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/Welcome /WelcomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstrap.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,10 +189,10 @@
     </state>
     <state x="2366" y="27" width="1474" height="679" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599246332262" />
     <state x="143" y="27" width="1217" height="664" maximized="true" key="dock-window-1/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595757971122" />
-    <state x="639" y="292" width="643" height="522" key="find.popup" timestamp="1599412497706">
+    <state x="639" y="292" width="643" height="522" key="find.popup" timestamp="1599578485159">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="639" y="292" width="643" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599412497706" />
+    <state x="639" y="292" width="643" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599578485159" />
     <state x="2559" y="272" width="643" height="536" key="find.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595682956670" />
     <state x="687" y="292" width="618" height="522" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1595758274759" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1595753335832">
