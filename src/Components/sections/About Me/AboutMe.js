@@ -1,32 +1,8 @@
-import React,{useState,useEffect,useRef} from 'react';
+import React from 'react';
 import '../css/Aboutme.css'
 
-const AboutMe = ({Visible}) => {
-    const useOnScreen = (options) => {
-        const [visible, setVisible] = useState(false)
-        const ref = useRef()
-        useEffect(() => {
-            const observer = new IntersectionObserver(([entry]) => {
-                if (visible) {
-                } else {
-                    setVisible(entry.isIntersecting)
-                    Visible(entry.isIntersecting)
-                }
+const AboutMe = () => {
 
-            },options)
-            if(ref.current){
-                observer.observe(ref.current)
-            }
-
-            return ()=>{
-                if(ref.current){
-                    observer.unobserve(ref.current)
-                }
-            }
-        },[ref,options])
-        return [ref,visible]
-    }
-    const [ref]=useOnScreen({rootMargin:'0px','threshold':'0.75'})
 
 
     return (
@@ -57,7 +33,7 @@ const AboutMe = ({Visible}) => {
                             <p className="text-bolder"><b className="about-me-font-size">Birthday: </b><span className="text-lighter about-me-font-size">10 February 2001</span></p>
                             <p className="text-bolder"><b className="about-me-font-size">Website: </b><span className="text-lighter about-me-font-size"><a href="https://www.haribhandari.me">www.haribhandari.me</a></span></p>
                         </div>
-                        <div className="d-flex flex-column" ref={ref}>
+                        <div className="d-flex flex-column" >
                             <p className="text-bolder"><b className="about-me-font-size">Mail: </b><span className="text-lighter about-me-font-size">2012bhandari.ha@gmail.com</span></p>
                         </div>
                     </div>
