@@ -21,10 +21,6 @@ function App() {
             <Suspense fallback={<div>. </div>}>
                 <AboutMe/>
             </Suspense>
-
-
-
-
             <Suspense fallback={<div>. </div>}>
                 <Skills/>
             </Suspense>
