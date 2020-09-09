@@ -5,7 +5,7 @@ const WelcomePage=lazy(()=>import('./Components/sections/Welcome /WelcomePage'))
 const Navbar=lazy(()=>import('./Components/layout/Navbar'))
 const AboutMe=lazy(()=>import('./Components/sections/About Me/AboutMe'))
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
-const Projects = lazy(() => import('./Components/sections/Projects/Projects'))
+// const Projects = lazy(() => import('./Components/sections/Projects/Projects'))
 const Skills = lazy(() => import('./Components/sections/About Me/Skills'))
 const Footer = lazy(() => import('./Components/layout/Footer'))
 function App() {
@@ -24,9 +24,9 @@ function App() {
             <Suspense fallback={<div>. </div>}>
                 <Skills/>
             </Suspense>
-            <Suspense fallback={<div>. </div>}>
-                (<Projects/>)
-            </Suspense>
+            {/*<Suspense fallback={<div>. </div>}>*/}
+            {/*    (<Projects/>)*/}
+            {/*</Suspense>*/}
             <Suspense fallback={<div>. </div>}>
                 <ContactMe/>
             </Suspense>

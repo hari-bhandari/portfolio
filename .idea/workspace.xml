@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79fb28ee-d6c4-41f8-9dd8-bb968af3f510" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/About Me/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1599410531633" duration="7012000" />
       <workItem from="1599511768710" duration="873000" />
       <workItem from="1599552027316" duration="3784000" />
-      <workItem from="1599642889797" duration="6117000" />
+      <workItem from="1599642889797" duration="6219000" />
     </task>
     <servers />
   </component>
