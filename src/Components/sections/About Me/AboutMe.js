@@ -1,6 +1,10 @@
 import React from 'react';
 import '../css/Aboutme.css'
+import '../Projects/img/'
 const AboutMe = () => {
+
+
+
     return (
 
         <section className="about px-4 text-center about--me background" id="about-me">
@@ -27,13 +31,13 @@ const AboutMe = () => {
                     <div className={"d-flex flex-row flex-wrap justify-content-between py-4 "}>
                         <div className="d-flex flex-column ">
                             <p className="text-bolder"><b className="about-me-font-size">Birthday: </b><span className="text-lighter about-me-font-size">10 February 2001</span></p>
-                            <p className="text-bolder"><b className="about-me-font-size">Website: </b><span className="text-lighter about-me-font-size"><a href="https://www.haribhandari.me">www.haribhandari.me</a></span></p>
+                            <p className="text-bolder"><b className="about-me-font-size">Website: </b><span className="text-lighter about-me-font-size"><a aria-label="website" href="https://www.haribhandari.me">www.haribhandari.me</a></span></p>
                         </div>
-                        <div className="d-flex flex-column">
+                        <div className="d-flex flex-column" >
                             <p className="text-bolder"><b className="about-me-font-size">Mail: </b><span className="text-lighter about-me-font-size">2012bhandari.ha@gmail.com</span></p>
                         </div>
                     </div>
-                    <a href="https://onedrive.live.com/view.aspx?resid=5379E04708716358!47098&ithint=file%2cdocx&authkey=!AKkXWahNjST-y4s"><button className="btn btn-dark text-uppercase mr-3">Download CV</button></a>
+                    <a aria-label="cv" href="https://onedrive.live.com/view.aspx?resid=5379E04708716358!47098&ithint=file%2cdocx&authkey=!AKkXWahNjST-y4s"><button className="btn btn-dark text-uppercase mr-3">Download CV</button></a>
                 </div>
             </div>
         </section>

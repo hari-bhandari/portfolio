@@ -1,58 +1,41 @@
-import React, {Fragment, lazy, Suspense, useEffect, useRef, useState} from 'react';
+import React, {Fragment, lazy, Suspense,useEffect,useRef,useState} from 'react';
 
 import './bootstrap.css'
-import Footer from "./Components/layout/Footer";
-import Navbar from "./Components/layout/Navbar";
-import WelcomePage from "./Components/sections/Welcome /WelcomePage";
-import AboutMe from "./Components/sections/About Me/AboutMe";
-import Projects from "./Components/sections/Projects/Projects";
-
+const WelcomePage=lazy(()=>import('./Components/sections/Welcome /WelcomePage'))
+const Navbar=lazy(()=>import('./Components/layout/Navbar'))
+const AboutMe=lazy(()=>import('./Components/sections/About Me/AboutMe'))
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
+const Projects = lazy(() => import('./Components/sections/Projects/Projects'))
 const Skills = lazy(() => import('./Components/sections/About Me/Skills'))
-const useOnScreen = (options) => {
-    const [visible, setVisible] = useState(false)
-    const ref = useRef()
-    useEffect(() => {
-        const observer = new IntersectionObserver(([entry]) => {
-            if (visible) {
-            } else {
-                setVisible(entry.isIntersecting)
-            }
-
-        },options)
-        if(ref.current){
-            observer.observe(ref.current)
-        }
-
-        return ()=>{
-            if(ref.current){
-                observer.unobserve(ref.current)
-            }
-        }
-    },[ref,options])
-    return [ref,visible]
-}
-
+const Footer = lazy(() => import('./Components/layout/Footer'))
 function App() {
-    const [ref,visible]=useOnScreen({rootMargin:'0px','threshold':'0.75'})
+
     return (
-            <Fragment>
-
+        <Fragment>
+            <Suspense fallback={<div>. </div>}>
                 <Navbar/>
-
+            </Suspense>
+            <Suspense fallback={<div>. </div>}>
                 <WelcomePage/>
+            </Suspense>
+            <Suspense fallback={<div>. </div>}>
                 <AboutMe/>
-                <div ref={ref}></div>
-                <Suspense fallback={<div></div>}>
-                {visible&&<Skills/>}
-                </Suspense>
-                {visible&&(<Projects/>)}
-                <Suspense fallback={<div></div>}>
-                    {visible&&<ContactMe/>}
-                </Suspense>
+            </Suspense>
+            <Suspense fallback={<div>. </div>}>
+                <Skills/>
+            </Suspense>
+            <Suspense fallback={<div>. </div>}>
+                (<Projects/>)
+            </Suspense>
+            <Suspense fallback={<div>. </div>}>
+                <ContactMe/>
+            </Suspense>
+
+            <Suspense fallback={<div>. </div>}>
                 <Footer/>
-            </Fragment>
-            );
+            </Suspense>
+        </Fragment>
+    );
 }
 
-            export default App;
+export default App;

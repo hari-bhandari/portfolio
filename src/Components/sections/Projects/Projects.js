@@ -11,6 +11,7 @@ import aStar from './img/aStar.png'
 import corona from './img/coronaVirus.webp'
 import ipAPI from './img/ip-api.webp'
 import carInfo from './img/car-info.webp'
+import Cors from './img/cors.png'
 const Projects = () => {
 
     const projects=[
@@ -88,6 +89,12 @@ const Projects = () => {
             mode:'mobile',
             demo:'https://car.haribhandari.me/'
 
+        },
+        {
+            title: 'Cors Bypasser',
+            description: 'While i was building Car Information Finder, I got to know how difficult it really is to bypass cors as DVLA\'s API was blocked by cors. I decided to help other developers by creating cors bypass which takes "GET,PUT,POST and DELETE" requests.',
+            picture: Cors,
+            demo: 'https://no--cors.herokuapp.com/'
         }
 
 

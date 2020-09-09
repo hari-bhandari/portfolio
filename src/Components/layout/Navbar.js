@@ -20,7 +20,7 @@ const Navbar = () => {
         ['--text-colour', '#312f2f'],
         ['--text-intensed', '#000000'],
         ['--overlay-color','rgba(50, 146, 166, 0.53)'],
-        ['--footer-background', '#17a2b8']
+        ['--footer-background', '#91e0ff']
     ]
     const changeRootElement=(name,property)=>{
         document.documentElement.style.setProperty(name, property)
@@ -48,8 +48,8 @@ const Navbar = () => {
                         <img src={logo} width="110" height="80" alt="logo"/>
 
                     </Link>
-                    <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span className="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="hamburger">
+                        <span className="navbar-toggler-icon"/>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <ul className="navbar-nav ml-auto " >
@@ -70,7 +70,7 @@ const Navbar = () => {
                             </li>
 
                             <li className="nav-item">
-                                <DarkModeToggle onChange={()=>onChange()} checked={darkMode} />
+                                <DarkModeToggle onChange={()=>onChange()} checked={darkMode} speed={2.2} />
                             </li>
 
 

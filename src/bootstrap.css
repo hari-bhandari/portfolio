@@ -1,19 +1,11 @@
-:root{
-    --navbar-background: #333333;
-    --background: #333333;
-    --text-colour: #dccece;
-    --text-intensed: #f3f1f1;
-    --overlay-color: rgba(51, 51, 51, 0.95);
-    --footer-background: #333333
 
-}
 :root{
     --navbar-background: rgb(255, 255, 255);
     --background: rgb(255, 255, 255);
     --text-colour: #312f2f;
     --text-intensed: #000000;
     --overlay-color:rgba(50, 146, 166, 0.53);
-    --footer-background:#17a2b8
+    --footer-background: #bdfced
 
 }
 
@@ -1692,32 +1684,20 @@ body {
     color: #059;
     background-color: #BEF;
 }
-.root{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-}
-.copy{
-    margin: 0.2em 0;
-    text-align: center;
-}
-.barTop {
-    margin-left: 0.8em;
-    width: 20em;
-    height: 1.5em;
-    border-top: 0.45em solid purple;
-    border-bottom: 0.45em solid purple;
-    transform: skew(-10deg);
-}
 
-.barBottom {
-    composes: barTop;
-    margin-left: 0;
-    margin-right: 0.8em;
-}
+@media (max-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        align-content: center;
 
-.letter {
-    display: inline-block;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: justify;
+        float: left;
+        float: right;
+
+    }
 }

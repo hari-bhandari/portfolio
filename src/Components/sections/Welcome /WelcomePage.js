@@ -15,7 +15,7 @@ const WelcomePage = () => {
                             Hari Bhandari
                         </h1>
                         <p className="welcome-page-font-size text-white ">Welcome to my Portfolio</p>
-                        <a href="https://1drv.ms/w/s!AlhjcQhH4HlTgu96qRdZqE2NJP7Liw?e=3yIgVN " className="btn btn-outline-secondary btn-lg text-white">
+                        <a aria-label="cv" href="https://1drv.ms/w/s!AlhjcQhH4HlTgu96qRdZqE2NJP7Liw?e=3yIgVN " className="btn btn-outline-secondary btn-lg text-white">
                             <FontAwesomeIcon icon={faDownload}/> Download my CV
                         </a>
                         <a className="btn btn-outline-secondary btn-lg text-white mx-2"  data-toggle="modal" data-target="#contactModal" href='#contactModal'>
