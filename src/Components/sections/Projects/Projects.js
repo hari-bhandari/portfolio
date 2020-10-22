@@ -28,6 +28,14 @@ const Projects = () => {
             demo:'https://www.haribhandari.uk/'
 
         },
+        {   title:'MERN Ecommerce Site',
+            description:'This is a clone of spotify which is powered by an very convinient spotify api.Thjs app can easily help you to play music as a individual or as a playlist' +
+                ' and can also let you control devices',
+            picture:DevCamper,
+            demo:'https://we-shop.herokuapp.com/'
+
+        },
+
 
         {   title:'EXPENSE TRACKER',
             description:'This tracks your spending\'s and total income though out the month and calculates total available money to spend. It\'s really helpful for those people who are bad with money.This app was made using plain vanilla js,css and HTML',
