@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import logo from './logo.png'
+import DarkModeToggle from "react-dark-mode-toggle";
 import './Navbar.css'
 import {Link} from 'react-scroll'
 
@@ -41,43 +42,42 @@ const Navbar = () => {
 
     }
     return (
-            <nav className="navbar navbar-expand-md  fixed-top py-4 navbar-light text-lighter" id="main-nav">
-                <div className="container">
-                    <Link to="home" className="navbar-brand my-0" smooth={true} duration={500}>
-                        <img src={logo} width="110" height="80" alt="logo"/>
+        <nav className="navbar navbar-expand-md  fixed-top py-4 navbar-light text-lighter" id="main-nav">
+            <div className="container">
+                <Link to="home" className="navbar-brand my-0" smooth={true} duration={500}>
+                    <img src={logo} width="110" height="80" alt="logo"/>
 
-                    </Link>
-                    <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="hamburger">
-                        <span className="navbar-toggler-icon"/>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarCollapse">
-                        <ul className="navbar-nav ml-auto " >
-                            <li className="nav-item">
-                                <Link to="home" className={"nav-link"} smooth={true} duration={500}>Home</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="about-me" className={"nav-link"} smooth={true} duration={500}>About me</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="skills" className={"nav-link"} smooth={true} duration={500}>Skills</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="projects" className={"nav-link"} smooth={true} duration={500}>Projects</Link>
-                            </li>
-                            <li className="nav-item">
-                                <span className={"nav-link"} data-toggle="modal" data-target="#contactModal">Contact me </span>
-                            </li>
+                </Link>
+                <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="hamburger">
+                    <span className="navbar-toggler-icon"/>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarCollapse">
+                    <ul className="navbar-nav ml-auto " >
+                        <li className="nav-item">
+                            <Link to="home" className={"nav-link"} smooth={true} duration={500}>Home</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="about-me" className={"nav-link"} smooth={true} duration={500}>About me</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="skills" className={"nav-link"} smooth={true} duration={500}>Skills</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="projects" className={"nav-link"} smooth={true} duration={500}>Projects</Link>
+                        </li>
+                        <li className="nav-item">
+                            <span className={"nav-link"} data-toggle="modal" data-target="#contactModal">Contact me </span>
+                        </li>
 
-                            <li className="nav-item">
-                                {/*<DarkModeToggle onChange={()=>onChange()} checked={darkMode} speed={2.2} />*/}
-                                <div></div>
-                            </li>
+                        <li className="nav-item">
+                            <DarkModeToggle onChange={()=>onChange()} checked={darkMode} speed={2.2} />
+                        </li>
 
 
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
     );
 };
 

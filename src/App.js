@@ -1,4 +1,4 @@
-import React, {Fragment, lazy, Suspense,useEffect,useRef,useState} from 'react';
+import React, {Fragment, lazy, Suspense} from 'react';
 
 import './bootstrap.css'
 const WelcomePage=lazy(()=>import('./Components/sections/welcome/WelcomePage'))
@@ -30,7 +30,6 @@ function App() {
             <Suspense fallback={<div>. </div>}>
                 <ContactMe/>
             </Suspense>
-
             <Suspense fallback={<div>. </div>}>
                 <Footer/>
             </Suspense>
