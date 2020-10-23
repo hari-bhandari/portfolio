@@ -29,8 +29,7 @@ const Projects = () => {
 
         },
         {   title:'MERN Ecommerce Site',
-            description:'This is a clone of spotify which is powered by an very convinient spotify api.Thjs app can easily help you to play music as a individual or as a playlist' +
-                ' and can also let you control devices',
+            description:'This is a complete ecommerce site which is made using MERN and is fully ffunctional"',
             picture:DevCamper,
             demo:'https://we-shop.herokuapp.com/'
 

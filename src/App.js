@@ -1,7 +1,7 @@
 import React, {Fragment, lazy, Suspense,useEffect,useRef,useState} from 'react';
 
 import './bootstrap.css'
-const WelcomePage=lazy(()=>import('./Components/sections/Welcome /WelcomePage'))
+const WelcomePage=lazy(()=>import('./Components/sections/welcome/WelcomePage'))
 const Navbar=lazy(()=>import('./Components/layout/Navbar'))
 const AboutMe=lazy(()=>import('./Components/sections/About Me/AboutMe'))
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
