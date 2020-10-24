@@ -1,8 +1,8 @@
 import React, {Fragment, lazy, Suspense} from 'react';
 
 import './bootstrap.css'
-const WelcomePage=lazy(()=>import('./Components/sections/welcome/WelcomePage'))
-const Navbar=lazy(()=>import('./Components/layout/Navbar'))
+import Navbar from "./Components/layout/Navbar";
+import WelcomePage from "./Components/sections/welcome/WelcomePage";
 const AboutMe=lazy(()=>import('./Components/sections/About Me/AboutMe'))
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
 const Projects = lazy(() => import('./Components/sections/Projects/Projects'))
@@ -12,12 +12,8 @@ function App() {
 
     return (
         <Fragment>
-            <Suspense fallback={<div>. </div>}>
                 <Navbar/>
-            </Suspense>
-            <Suspense fallback={<div>. </div>}>
                 <WelcomePage/>
-            </Suspense>
             <Suspense fallback={<div>. </div>}>
                 <AboutMe/>
             </Suspense>
