@@ -1,8 +1,8 @@
 import React, {Fragment, lazy, Suspense} from 'react';
 
-import './bootstrap.css'
 import Navbar from "./Components/layout/Navbar";
 import WelcomePage from "./Components/sections/welcome/WelcomePage";
+import './bootstrap.css'
 const AboutMe=lazy(()=>import('./Components/sections/About Me/AboutMe'))
 const ContactMe = lazy(() => import('./Components/sections/About Me/ContactMe'))
 const Projects = lazy(() => import('./Components/sections/Projects/Projects'))

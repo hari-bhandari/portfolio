@@ -69,7 +69,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <DarkModeToggle onChange={()=>onChange()} checked={darkMode} speed={2.2} />
+                            <div></div>
                         </li>
 
 
