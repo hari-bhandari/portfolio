@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import logo from './logo.png'
+import DarkModeToggle from "react-dark-mode-toggle";
 import './Navbar.css'
 import {Link} from 'react-scroll'
 
@@ -69,7 +70,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <div></div>
+                            <DarkModeToggle onChange={()=>onChange()} checked={darkMode} speed={2.2} />
                         </li>
 
 
