@@ -42,7 +42,7 @@ export const  projects=[
     {   title:'SORTING ALGORITHM VISUALISER',
         description:'Sorting Algorithm Visualiser is a React App to visualise 5 different sorting algorithms.My previous knowledge from school helped me to create this app even faster.This is a responsive Visualiser that can be used on Mobile phone,tablet or PC.',
         picture:Sort,
-        mode:'mobile',
+        mobile:true,
         demo:'https://sort-visualiser.haribhandari.me/'
 
     },
@@ -64,7 +64,7 @@ export const  projects=[
     {   title:'Store My Contacts',
         description:'SMC for Everyone...SMC allows anyone to keeps all their contacts on one Place.I made this using React,MongoDb and Node.js(with authentication)',
         picture:ContactKeeper,
-        mode:'mobile',
+        mobile:true,
         demo:'https://storemycontacts.herokuapp.com/'
 
     },
@@ -84,7 +84,7 @@ export const  projects=[
         description:'This is an amazing web scraping app that scrapes mcdonald\'s schedule. I made this app as Mcdonald\'s schedule is extremely unresponsive and hard to work with.NodeJs and Reactjs were used while making this project. This app scrapes mcdonald\'s schedule every 24 hours at 0:00 am.\n' +
             'By the way, I work at Mcdonald\'s.',
         picture:Mcdonalds,
-        mode:'mobile',
+        mobile:true,
         demo:'https://mcdonalds-schedule.herokuapp.com/'
 
     },
@@ -97,7 +97,7 @@ export const  projects=[
     {   title:'Car information finder for UK',
         description:'I used DVLA vehicle enquiry service api to provide detailed information about peoples car.This is an excellent app to check UK\'s vehicle information for free.',
         picture:carInfo,
-        mode:'mobile',
+        mobile:true,
         demo:'https://car.haribhandari.me/'
 
     },
