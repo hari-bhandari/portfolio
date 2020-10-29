@@ -40,7 +40,7 @@ const Project = ({title,description,picture,mobile,demo,LightSpeed}) => {
                         <h3 >{title}</h3>
                         <p className="project-font-size">{description}</p>
                     </div>)}
-                    }
+
                 </div>
             </div>
         </section>

@@ -1,53 +1,44 @@
-
-.container {
-    padding: 2em;
-    color:#bd2c00;
-    background-color: #333;
+.button-container{
+    display: flex;
+    justify-content: center;
 }
 
-/* GENERAL BUTTON STYLING */
-button,
-button::after {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+.button-btn >svg{
+    margin-right: 2em;
 }
-
-button {
-    background: none;
-    border: 3px solid #fff;
-    border-radius: 5px;
-    color: #fff;
-    display: block;
-    font-size: 1.6em;
-    font-weight: bold;
-    margin: 1em auto;
-    padding: 2em 6em;
-    position: relative;
-    text-transform: uppercase;
+.button-btn{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
 }
-
-button::before,
-button::after {
-    background: #fff;
-    content: '';
-    position: absolute;
-    z-index: -1;
+.button-btn:hover{
+    background:#fff;
+    color:#1AAB8A;
 }
-
-button:hover {
-    color: #2ecc71;
+.button-btn:before,.button-btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
 }
-
-/* BUTTON 1 */
-.btn-1::after {
-    height: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
+.button-btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
 }
-
-.btn-1:hover:after {
-    height: 100%;
+.button-btn:hover:before,.button-btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
 }
