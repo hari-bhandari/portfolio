@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import Fade from 'react-reveal/Fade'
 import {Navbar,Button,Line,Menu,MenuContainer,MenuItem,MenuPanel,Wrapper} from './StyledHeader'
 import tw from 'tailwind.macro'
-import { colors, accent } from '../../'
 // Components
 import Logo from './Logo'
 import PageLink from './PageLink'

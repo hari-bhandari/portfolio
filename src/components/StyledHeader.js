@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import tw from "tailwind.macro";
+import { colors, accent } from '../../tailwind'
+
 
 export const Wrapper = styled.div`
   ${tw`relative block font-title h-0 pin-t pin-x z-999`};
