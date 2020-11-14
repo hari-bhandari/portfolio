@@ -1,8 +1,35 @@
 module.exports = {
   siteMetadata: {
     title: `Hari Bhandari`,
-    description: `A freelancer,full stack developer and mathematician `,
+    description: `Full-Stack Software Developer, Designer, and Freelancer`,
     author: `Hari Bhandari`,
+    keywords: [
+      `Hari Bhandari`, `Java`, `full-stack`, `software`, `developer`,
+      `design`, `portfolio`, `blog`, `python`, `javascript`,
+      `react`, `gatsby`, `website optimization`,
+    ],
+    menuLinks: [
+      {
+        name: `Home`,
+        link: `/`,
+        external: false,
+      },
+      {
+        name: `Design`,
+        link: `https://brettstevenson.design/`,
+        external: true,
+      },
+      {
+        name: `Blog`,
+        link: `/blog/`,
+        external: false,
+      },
+      {
+        name: `Contact`,
+        link: `/contact/`,
+        external: false,
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

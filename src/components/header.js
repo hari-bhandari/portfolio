@@ -1,42 +1,122 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
+import PropTypes from 'prop-types'
+import Fade from 'react-reveal/Fade'
+import {Navbar,Button,Line,Menu,MenuContainer,MenuItem,MenuPanel,Wrapper} from './StyledHeader'
+import tw from 'tailwind.macro'
+import { colors, accent } from '../../'
+// Components
+import Logo from './Logo'
+import PageLink from './PageLink'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+const MenuButton = ({ status, onClick }) => (
+    <Button className={`menu-button ${status}`} onClick={onClick}>
+        <Line className='half start' />
+        <Line />
+        <Line className='half end' />
+    </Button>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+MenuButton.propTypes = {
+    status: PropTypes.string,
+    onClick: PropTypes.func.isRequired,
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
+
+class Nav extends React.Component {
+
+    state = {
+        panel: false,
+    }
+
+    togglePanel = () => {
+        if (this.state.panel)
+            this.setState({ panel: false })
+        else
+            this.setState({ panel: true })
+    }
+
+    isPanelVisible = () => (this.state.panel ? 'active' : '')
+
+    render() {
+        const logo = this.props.logo
+        const mobile = this.props.mobile
+        return (
+            <StaticQuery query={menuQuery}
+                         render={data => (
+                             <Wrapper className='nav-wrapper'>
+                                 <Fade top delay={250}>
+                                     <MenuContainer>
+                                         {logo ? <Logo className='logo-container' link={data.site.siteMetadata.menuLinks[0].link} /> : null}
+                                         { mobile ?
+                                             <MenuButton status={this.isPanelVisible()} onClick={this.togglePanel} />
+                                             :
+                                             <Navbar>
+                                                 <Menu className='menu'>
+                                                     {data.site.siteMetadata.menuLinks.map((item) => {
+                                                         if (item.external) {
+                                                             return (
+                                                                 <MenuItem className='menu-item external' key={item.name}>
+                                                                     <a href={item.link} target='_blank' rel='noopener noreferrer'>{item.name}</a>
+                                                                 </MenuItem>
+                                                             )
+                                                         }
+                                                         return (
+                                                             <MenuItem className='menu-item' key={item.name}>
+                                                                 <PageLink to={item.link}>{item.name}</PageLink>
+                                                             </MenuItem>
+                                                         )
+                                                     })}
+                                                 </Menu>
+                                             </Navbar>
+                                         }
+                                     </MenuContainer>
+                                 </Fade>
+                                 { mobile ?
+                                     <MenuPanel className={`${this.isPanelVisible()}`}>
+                                         {data.site.siteMetadata.menuLinks.map((item) => {
+                                             if (item.external) {
+                                                 return (
+                                                     <MenuItem className='menu-item external' key={item.name}>
+                                                         <a href={item.link} target='_blank' rel='noopener noreferrer'>{item.name}</a>
+                                                     </MenuItem>
+                                                 )
+                                             }
+                                             return (
+                                                 <MenuItem className='menu-item' key={item.name}>
+                                                     <PageLink to={item.link}>{item.name}</PageLink>
+                                                 </MenuItem>
+                                             )
+                                         })}
+                                     </MenuPanel> : null }
+                             </Wrapper>
+                         )}
+            />
+        )
+    }
 }
 
-export default Header
+Nav.defaultProps = {
+    logo: true,
+    mobile: false,
+}
+Nav.propTypes = {
+    logo: PropTypes.bool,
+    mobile: PropTypes.bool,
+}
+
+export default Nav
+
+const menuQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        menuLinks {
+          name
+          link
+          external
+        }
+      }
+    }
+  }
+`
