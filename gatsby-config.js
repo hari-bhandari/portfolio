@@ -42,8 +42,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-transition-link`,
+
     {
       resolve: `gatsby-plugin-manifest`,
+
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
